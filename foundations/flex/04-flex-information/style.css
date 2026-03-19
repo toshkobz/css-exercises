@@ -1,6 +1,21 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  margin: 0;
 }
+
+.rest {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.barberry-item,
+.chilli-item,
+.saffron-item,
+.pepper-item {
+  width: 200px;
+}
+
 
 img {
   width: 100px;
@@ -8,8 +23,10 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+  padding-bottom: 32px;
 }
 
 /* do not edit this footer */
